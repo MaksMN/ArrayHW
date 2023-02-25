@@ -46,6 +46,7 @@ Array<T> search;
 search = array.searchAll(value); 
 // Возвращает объект Array со всеми найденными индексами или исключение ArrayNotFound
 ```
+* При поиске произвольных типов, в них должен быть переопределен оператор ==
 * исключения: 
   - ArrayBadRange
   - ArrayBadLength
